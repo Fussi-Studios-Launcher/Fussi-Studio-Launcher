@@ -15,6 +15,6 @@ sourceGithubLink = "#"
 supportLink = "#"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO WESTEROSCRAFT"
+welcomeHeader = "Bienvenido a Fussi Studios Launcher"
 welcomeDescription = ""
 welcomeDescCTA = ""
