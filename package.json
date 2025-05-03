@@ -5,9 +5,9 @@
   "description": "Modded Minecraft Launcher",
   "author": "Fussi Studio (https://github.com/Fussi-Studios-Launcher)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/Fussi-Studios-Launcher/Fussi-Studio-Launcher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/Fussi-Studios-Launcher/Fussi-Studio-Launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/Fussi-Studios-Launcher/Fussi-Studio-Launcher.git"
   }
 }
