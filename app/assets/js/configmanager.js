@@ -1,6 +1,15 @@
-const fs   = require('fs-extra')
+/**
+ * ConfigManager
+ * 
+ * Este módulo gestiona la configuración del launcher, incluyendo la base de datos de autenticación.
+ * Soporta cuentas Mojang (premium y no premium en modo offline) y cuentas Microsoft.
+ * Compatible con AuthManager para almacenar y gestionar cuentas autenticadas.
+ * 
+ * @module configmanager
+ */
+const fs = require('fs-extra')
 const { LoggerUtil } = require('helios-core')
-const os   = require('os')
+const os = require('os')
 const path = require('path')
 
 const logger = LoggerUtil.getLogger('ConfigManager')
@@ -503,8 +512,6 @@ exports.setModConfiguration = function(serverid, configuration){
     cfgs.push(configuration)
 }
 
-// User Configurable Settings
-
 // Java Settings
 
 function defaultJavaConfig(effectiveJavaOptions, ram) {
@@ -771,8 +778,6 @@ exports.setLaunchDetached = function(launchDetached){
     config.settings.game.launchDetached = launchDetached
 }
 
-// Launcher Settings
-
 /**
  * Check if the launcher should download prerelease versions.
  * 
@@ -784,9 +789,9 @@ exports.getAllowPrerelease = function(def = false){
 }
 
 /**
- * Change the status of Whether or not the launcher should download prerelease versions.
+ * Change the status of whether or not the launcher should download prerelease versions.
  * 
- * @param {boolean} launchDetached Whether or not the launcher should download prerelease versions.
+ * @param {boolean} allowPrerelease Whether or not the launcher should download prerelease versions.
  */
 exports.setAllowPrerelease = function(allowPrerelease){
     config.settings.launcher.allowPrerelease = allowPrerelease

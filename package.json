@@ -1,9 +1,9 @@
 {
-  "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
+  "name": "fussinlauncher",
+  "version": "1.0.0",
+  "productName": "Fussi Studio Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Fussi Studio (https://github.com/Fussi-Studios-Launcher)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
