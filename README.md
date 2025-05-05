@@ -92,7 +92,7 @@ This section details the setup of a basic developmentment environment.
 
 ```console
 > git clone https://github.com/Fussi-Studios-Launcher/Fussi-Studio-Launcher.git
-> cd HeliosLauncher
+> cd Fussi-Studio-Launcher
 > npm install
 ```
 
