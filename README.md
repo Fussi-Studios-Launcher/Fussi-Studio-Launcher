@@ -1,6 +1,6 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
-<h1 align="center">Helios Launcher</h1>
+<h1 align="center">Fussi Studio Launcherr</h1>
 
 <em><h5 align="center">(formerly Electron Launcher)</h5></em>
 
@@ -91,7 +91,7 @@ This section details the setup of a basic developmentment environment.
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/dscalzi/HeliosLauncher.git
+> git clone https://github.com/Fussi-Studios-Launcher/Fussi-Studio-Launcher.git
 > cd HeliosLauncher
 > npm install
 ```
